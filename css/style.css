@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -53,7 +54,7 @@ li.nav-item {
   margin-right: 0.8rem;
 }
 
-#link-contacto {
+#link-vets {
   width: max-content;
   height: max-content;
   display: flex;
@@ -65,7 +66,7 @@ li.nav-item {
   color: #fff;
   background-color: #4798e3;
 }
-#link-contacto:hover {
+#link-vets:hover {
   background-color: #326b9f;
   transition: all 0.6s;
 }

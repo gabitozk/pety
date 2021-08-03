@@ -1,0 +1,19 @@
+{
+  "name": "pety",
+  "version": "1.0.0",
+  "description": "proyecto dw coderhouse",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabitozk/pety.git"
+  },
+  "author": "gabi zinyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabitozk/pety/issues"
+  },
+  "homepage": "https://github.com/gabitozk/pety#readme"
+}
