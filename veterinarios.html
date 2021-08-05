@@ -1,12 +1,134 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sumáte como veterinario a Pety y forma parte del mejor equipo de expertos.">
+    <meta name="keywords" content="veterinarios, beneficios, pety, doctores, perros, gatos, mascotas">
+    <link rel="icon" type="image/png" href="./imgs/favicon.png"/>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--Pety CSS-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Pety | Vets</title>
+  </head>
 </head>
 <body>
+    <!--Navegación-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="./imgs/logo.png" alt="logo pety"
+                class="imgLogo align-middle"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#servicios">Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="planes.html">Planes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#testimonios">Testimonios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="faq.html">Ayuda</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="beneficios.html">Beneficios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#contacto">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a id="link-vets" class="nav-link" href="veterinarios.html">Pety Vets</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!--Fin Navegación-->
+
+      <!--Hero section-->
+      <section id="hero-vets">
+        <div class="container">
+            <div class="row">
+                <article class="col-md-6">
+                    <h5>se parte de pety</h5>
+                    <h1>Se parte de nuestro equipo</h1>
+                    <h3>Podés sumarte a nuestro grupo de veterinarios y contar con los mejores beneficios.</h3>
+                    <a class="linkPrimario" href="#servicios"><p>Quiero sumarme</p></a>
+                </article>
+                <article class="col-md-6">
+                </article>
+            </div>
+        </div>
+      </section>
+      <!--Fin Hero section-->
+
+      <section id="beneficios-vets">
+        <article>
+          <i class="fas fa-flask fa-2x"></i>
+          <h4>Expertos</h4>
+          <p>Vas a ser parte de los mejores veterinarios y doctores, contamos con muchos expertos de distintas especialidades.</p>
+        </article>
+        <article>
+          <i class="fas fa-dollar-sign fa-2x"></i>
+          <h4>Comisión</h4>
+          <p>Nuestros porcentajes de comisión son muy pequeños, buscamos que tengas la mejor comisión para vos.</p>
+        </article>
+        <article>
+          <i class="fas fa-archive fa-2x"></i>
+          <h4>Recursos</h4>
+          <p>Te brindamos recursos médicos para que puedas trabajar de la manera más comoda y brindar el mejor servicio.</p>
+        </article>
+      </section>
+
+    <!--Footer-->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <article class="col-sm-12 col-md-3">
+            <img src="./imgs/Pety_footer.png" alt="logo pety" />
+            <p>Copyright © 2021 Pety.</p>
+          </article>
+          <article class="col-sm-12 col-md-3">
+            <h4>Links</h4>
+            <a href="index.html#servicios">Servicios</a>
+            <a href="planes.html">Planes</a>
+            <a href="index.html#testimonios">Testimonios</a>
+            <a href="faq.html">Ayuda</a>
+            <a href="beneficios.html">Beneficios</a>
+            <a href="index.html#contacto">Contacto</a>
+            <a href="veterinarios.html">Pety Vets</a>
+          </article>
+          <article class="col-sm-12 col-md-3">
+            <h4>Redes</h4>
+            <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+          </article>
+          <article class="col-sm-12 col-md-3">
+            <h4>Suscribite al newsletter</h4>
+            <form action="" class="d-flex">
+              <input type="text" placeholder="Ingresa tu mail">
+              <button type="submit" class="fondoMarca textoColorBlanco">Suscribir</button>
+            </form>
+          </article>
+        </div>
+      </div>
+    </footer>
+    <!--Fin Footer-->
     
+    <!--Popper y Bootstrap JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/d510e61bb6.js" crossorigin="anonymous"></script>
 </body>
 </html>

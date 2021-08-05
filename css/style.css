@@ -635,6 +635,61 @@ div.accordion-body p {
 }
 
 /*-------------------------------------*/
+/*veterinarios.html*/
+section#hero-vets {
+  background: linear-gradient(135deg, #205d96 20%, #4798e3);
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+section#hero-vets h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  color: #fff;
+  line-height: 5rem;
+  margin-bottom: 1rem;
+}
+section#hero-vets h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #cae5ff;
+  line-height: 2.5rem;
+  margin-bottom: 1.3rem;
+}
+section#hero-vets h5 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #d4e330;
+}
+section#hero-vets a {
+  margin-bottom: 2rem;
+}
+
+section#beneficios-vets {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: 12rem;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+}
+section#beneficios-vets article i {
+  color: #205d96;
+}
+section#beneficios-vets article h4 {
+  font-weight: 500;
+  color: #205d96;
+}
+section#beneficios-vets article p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #4e4e4e;
+}
+
+/*-------------------------------------*/
 /*404.html*/
 section#p404 {
   margin-top: 4rem;

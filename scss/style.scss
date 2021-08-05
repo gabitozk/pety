@@ -7,6 +7,11 @@ $font-weight-regular: 400;
 $font-weight-medium: 500;
 $font-weight-bold: 700;
 
+@mixin fontWeightColor($weight, $color) {
+  font-weight: $weight;
+  color: $color;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -78,7 +83,7 @@ li.nav-item {
   align-items: center;
   color: $blanco;
   background-color: $brand;
-
+  
   &:hover {
     background-color: #326b9f;
     transition: all 0.6s;
@@ -720,6 +725,66 @@ div.accordion-body {
   p {
     font-size: 1rem;
     color: #4e4e4e;
+  }
+}
+
+/*-------------------------------------*/
+/*veterinarios.html*/
+
+section#hero-vets {
+  background: linear-gradient(135deg, $azul 20%, $brand);
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+
+  h1 {
+    font-size: 4rem;
+    @include fontWeightColor(400, $blanco);
+    line-height: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;  
+    @include fontWeightColor(400, $azul-texto);
+    line-height: 2.5rem;
+    margin-bottom: 1.3rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    @include fontWeightColor(700, $link);    
+  }
+
+  a {
+    margin-bottom: 2rem;
+  }
+}
+
+section#beneficios-vets {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: 12rem;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+
+  article {
+    i{
+      color: $azul;
+    }
+
+    h4 {
+      @include fontWeightColor(500, $azul);
+    }
+
+    p {
+      font-size: 1rem;
+      @include fontWeightColor(400, $texto--color);
+    }
   }
 }
 
