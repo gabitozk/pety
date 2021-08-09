@@ -472,11 +472,26 @@ section#contacto {
       border: 2px solid #c4c4c4;
       outline: none;
       background-color: #f1f1f1;
-      padding-left: 1rem;
 
       &::placeholder {
         font-family: $font-principal;
         font-size: 0.9rem;
+      }
+
+      &[type=submit] {
+        background-color: $brand;
+        width: 20%;
+        border: none;
+        border-radius: 30px;
+        @include fontWeightColor(500, $blanco )
+      }
+
+      &[type=reset] {
+        background-color: $blanco;
+        width: 20%;
+        border: 2px solid $brand;
+        border-radius: 30px;
+        @include fontWeightColor(500, $brand);
       }
     }
 
@@ -964,6 +979,14 @@ section#p404 {
     form {
       input {
         width: 100%;
+
+        &[type=submit] {
+          width: 100%;
+        }
+
+        &[type=reset]{
+          width: 100%;
+        }
       }
       select {
         width: 100%;

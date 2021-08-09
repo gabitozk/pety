@@ -11521,11 +11521,26 @@ section#contacto form input {
   border: 2px solid #c4c4c4;
   outline: none;
   background-color: #f1f1f1;
-  padding-left: 1rem;
 }
 section#contacto form input::placeholder {
   font-family: "DM Sans", sans-serif;
   font-size: 0.9rem;
+}
+section#contacto form input[type=submit] {
+  background-color: #4798e3;
+  width: 20%;
+  border: none;
+  border-radius: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+section#contacto form input[type=reset] {
+  background-color: #fff;
+  width: 20%;
+  border: 2px solid #4798e3;
+  border-radius: 30px;
+  font-weight: 500;
+  color: #4798e3;
 }
 section#contacto form select {
   width: 30%;
@@ -11954,6 +11969,12 @@ section#p404 img {
   }
 
   section#contacto form input {
+    width: 100%;
+  }
+  section#contacto form input[type=submit] {
+    width: 100%;
+  }
+  section#contacto form input[type=reset] {
     width: 100%;
   }
   section#contacto form select {
