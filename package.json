@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gabitozk/pety/issues"
   },
-  "homepage": "https://github.com/gabitozk/pety#readme"
+  "homepage": "https://github.com/gabitozk/pety#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.0"
+  }
 }

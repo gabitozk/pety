@@ -1,7 +1,13 @@
+//Colores
 @import "colores";
+
+//Fonts
 @import "fonts";
 
-//Fuente - Weights
+//Bootstrap
+@import "../bootstrap/scss/bootstrap.scss";
+
+//Fonts Weights - Weights
 $font-principal: "DM Sans", sans-serif;
 $font-weight-regular: 400;
 $font-weight-medium: 500;
