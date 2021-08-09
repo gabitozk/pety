@@ -640,7 +640,6 @@ section#hero-vets {
   background: linear-gradient(135deg, #205d96 20%, #4798e3);
   width: 100%;
   padding-top: 2rem;
-  padding-bottom: 1rem;
   margin-bottom: 2rem;
 }
 section#hero-vets h1 {
@@ -667,14 +666,25 @@ section#hero-vets a {
   margin-bottom: 2rem;
 }
 
+article#hero-vets-img {
+  position: relative;
+}
+article#hero-vets-img img {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
 section#beneficios-vets {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 2rem;
   display: grid;
   gap: 1rem;
   grid-auto-rows: 12rem;
-  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr));
 }
 section#beneficios-vets article i {
   color: #205d96;
@@ -757,6 +767,11 @@ section#p404 img {
   }
   section#contacto form textarea {
     width: 100%;
+  }
+
+  section#hero-vets h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
   }
 }
 @media only screen and (min-device-width: 481px) and (max-device-width: 767px) {
