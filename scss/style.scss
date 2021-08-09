@@ -1,5 +1,5 @@
-@import 'colores';
-@import 'fonts';
+@import "colores";
+@import "fonts";
 
 //Fuente - Weights
 $font-principal: "DM Sans", sans-serif;
@@ -83,7 +83,7 @@ li.nav-item {
   align-items: center;
   color: $blanco;
   background-color: $brand;
-  
+
   &:hover {
     background-color: #326b9f;
     transition: all 0.6s;
@@ -705,7 +705,6 @@ article#contenedor-faq {
 }
 
 div#acordion-faq {
-  border-radius: 20px;
   * {
     box-sizing: border-box;
   }
@@ -745,7 +744,7 @@ section#hero-vets {
   }
 
   h3 {
-    font-size: 1.8rem;  
+    font-size: 1.8rem;
     @include fontWeightColor(400, $azul-texto);
     line-height: 2.5rem;
     margin-bottom: 1.3rem;
@@ -754,7 +753,7 @@ section#hero-vets {
   h5 {
     font-size: 1rem;
     text-transform: uppercase;
-    @include fontWeightColor(700, $link);    
+    @include fontWeightColor(700, $link);
   }
 
   a {
@@ -784,7 +783,7 @@ section#beneficios-vets {
   grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr));
 
   article {
-    i{
+    i {
       color: $azul;
     }
 
@@ -797,6 +796,88 @@ section#beneficios-vets {
       @include fontWeightColor(400, $texto--color);
     }
   }
+}
+
+/*-------------------------------------*/
+/*beneficios.html*/
+section#beneficios {
+  padding-top: 4rem;
+  margin-bottom: 3rem;
+
+  h1 {
+    font-size: 2.2rem;
+    text-align: center;
+    @include fontWeightColor(700, $titulo--color);
+    margin: 0rem 0.5rem 0.5rem 0.5rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    @include fontWeightColor(400, $subtitulo--color);
+    margin: 0rem 0.5rem 2rem 0.5rem;
+  }
+}
+
+div#cards-beneficios {
+  article {
+    div {
+      width: 100%;
+      height: 90%;
+      box-sizing: border-box;
+      border-radius: 10px;
+      box-shadow: -2px 3px 13px 2px rgba(143, 143, 143, 30%);
+      padding: 1rem 1rem 1.2rem 1rem;
+      margin-bottom: 2rem;
+
+      h4 {
+        @include fontWeightColor(500, $titulo--color);
+      }
+
+      h5 {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+        color: $texto--color;
+      }
+
+      img {
+        width: 18%;
+        vertical-align: middle;
+      }
+      
+    }
+  }
+}
+
+.descuentoBajo {
+  width: max-content;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  border-radius: 5px;
+  @include fontWeightColor(500, #2f9616);
+  background-color: #8ef175;
+}
+
+.descuentoMedio {
+  width: max-content;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  border-radius: 5px;
+  @include fontWeightColor(500, #965416);
+  background-color: #f1bf75;
+}
+
+.descuentoAlto {
+  width: max-content;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  border-radius: 5px;
+  @include fontWeightColor(500, #962516);
+  background-color: #f17575;
 }
 
 /*-------------------------------------*/
@@ -858,8 +939,7 @@ section#p404 {
 
   section#link-planes {
     article {
-      background: $violeta url(../imgs/back_planes.png) no-repeat 59%
-        47%/250%;
+      background: $violeta url(../imgs/back_planes.png) no-repeat 59% 47%/250%;
 
       p {
         width: 100%;
@@ -902,4 +982,3 @@ section#p404 {
     margin-bottom: 20%;
   }
 }
-

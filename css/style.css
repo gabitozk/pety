@@ -612,9 +612,6 @@ article#contenedor-faq {
   margin-right: 10%;
 }
 
-div#acordion-faq {
-  border-radius: 20px;
-}
 div#acordion-faq * {
   box-sizing: border-box;
 }
@@ -697,6 +694,83 @@ section#beneficios-vets article p {
   font-size: 1rem;
   font-weight: 400;
   color: #4e4e4e;
+}
+
+/*-------------------------------------*/
+/*beneficios.html*/
+section#beneficios {
+  padding-top: 4rem;
+  margin-bottom: 3rem;
+}
+section#beneficios h1 {
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: 700;
+  color: #3b3b3b;
+  margin: 0rem 0.5rem 0.5rem 0.5rem;
+}
+section#beneficios h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 400;
+  color: #6b6b6b;
+  margin: 0rem 0.5rem 2rem 0.5rem;
+}
+
+div#cards-beneficios article div {
+  width: 100%;
+  height: 90%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: -2px 3px 13px 2px rgba(143, 143, 143, 0.3);
+  padding: 1rem 1rem 1.2rem 1rem;
+  margin-bottom: 2rem;
+}
+div#cards-beneficios article div h4 {
+  font-weight: 500;
+  color: #3b3b3b;
+}
+div#cards-beneficios article div h5 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+div#cards-beneficios article div p {
+  font-size: 1rem;
+  color: #4e4e4e;
+}
+div#cards-beneficios article div img {
+  width: 18%;
+  vertical-align: middle;
+}
+
+.descuentoBajo {
+  width: max-content;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  border-radius: 5px;
+  font-weight: 500;
+  color: #2f9616;
+  background-color: #8ef175;
+}
+
+.descuentoMedio {
+  width: max-content;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  border-radius: 5px;
+  font-weight: 500;
+  color: #965416;
+  background-color: #f1bf75;
+}
+
+.descuentoAlto {
+  width: max-content;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  border-radius: 5px;
+  font-weight: 500;
+  color: #962516;
+  background-color: #f17575;
 }
 
 /*-------------------------------------*/
