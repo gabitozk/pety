@@ -10,7 +10,7 @@ $navbar-light-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3
 //Bootstrap
 @import "../bootstrap/scss/bootstrap.scss";
 
-//Fonts Weights - Weights
+//Font Weights
 $font-principal: "DM Sans", sans-serif;
 $font-weight-regular: 400;
 $font-weight-medium: 500;
@@ -225,7 +225,7 @@ section#servicios {
     margin-left: auto;
     margin-right: auto;
     transform: translate(0, -106px);
-    font-size: 28px;
+    font-size: 1.7rem;
     font-weight: $font-weight-medium;
     text-align: center;
   }
@@ -950,6 +950,12 @@ section#p404 {
       width: 20%;
       height: 20%;
       margin-bottom: 0.5rem;
+    }
+  }
+
+  section#servicios {
+    h2 {
+      font-size: 1.9rem;
     }
   }
 

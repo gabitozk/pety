@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+/*Cambia el color de la hamburguesa de Bootstrap*/
 /*!
  * Bootstrap v5.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11311,7 +11312,7 @@ section#servicios h2, section#servicios .h2 {
   margin-left: auto;
   margin-right: auto;
   transform: translate(0, -106px);
-  font-size: 28px;
+  font-size: 1.7rem;
   font-weight: 500;
   text-align: center;
 }
@@ -11948,6 +11949,10 @@ section#p404 img {
     width: 20%;
     height: 20%;
     margin-bottom: 0.5rem;
+  }
+
+  section#servicios h2, section#servicios .h2 {
+    font-size: 1.9rem;
   }
 
   div#contenedor-servicios {
