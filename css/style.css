@@ -11522,6 +11522,7 @@ section#contacto form input {
   border: 2px solid #c4c4c4;
   outline: none;
   background-color: #f1f1f1;
+  padding-left: 1rem;
 }
 section#contacto form input::placeholder {
   font-family: "DM Sans", sans-serif;
@@ -11600,11 +11601,13 @@ footer article a i {
 footer article form input {
   outline: none;
   margin-right: 0.2rem;
+  padding-left: 1rem;
 }
 footer article form button {
   width: max-content;
   box-sizing: border-box;
-  padding: 0.3rem;
+  padding: 0.3rem 1rem 0.3rem 1rem;
+  margin-left: 0.5rem;
   border-radius: 20px;
   border: none;
 }

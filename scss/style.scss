@@ -472,6 +472,7 @@ section#contacto {
       border: 2px solid #c4c4c4;
       outline: none;
       background-color: #f1f1f1;
+      padding-left: 1rem;
 
       &::placeholder {
         font-family: $font-principal;
@@ -561,12 +562,14 @@ footer {
       input {
         outline: none;
         margin-right: 0.2rem;
+        padding-left: 1rem;
       }
 
       button {
         width: max-content;
         box-sizing: border-box;
-        padding: 0.3rem;
+        padding: 0.3rem 1rem 0.3rem 1rem;
+        margin-left: 0.5rem;
         border-radius: 20px;
         border: none;
       }
