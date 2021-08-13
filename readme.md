@@ -2,4 +2,4 @@
 
 <p>Este es un proyecto hecho para el curso de desarrollo web de Coderhouse.</p>
 <p>Es un website hecho para una obra social para mascotas ficticia. </p>
-
+<p>Se encuentra armado con HTML, CSS y Bootstrap 5.</p>
